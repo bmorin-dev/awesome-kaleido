@@ -1,0 +1,11 @@
+local statusbar = require("ui.panels.statusbar")
+local dashboard = require("ui.panels.dashboard")
+local infopanel = require("ui.panels.infopanel")
+local dockpanel = require("ui.panels.dock")
+
+screen.connect_signal("request::desktop_decoration", function(s)
+	s.statusbar = statusbar(s)
+	s.dashboard = dashboard(s)
+	s.infopanel = infopanel(s)
+	s.dockpanel = dockpanel(s)
+end)
