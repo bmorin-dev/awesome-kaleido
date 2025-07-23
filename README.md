@@ -1,6 +1,6 @@
 <p align='center'>
 	<br/>
-    This is an AwesomeWM config that is based off of The Glorious Dotfiles by Eromatiya
+    This is an AwesomeWM config that is based off of mostly The Glorious Dotfiles by Eromatiya, with bits and pieces ~~stolen~~ borrowed from other sources
 </p>
 
 ### Using
