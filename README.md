@@ -14,7 +14,7 @@
 
 ## Core features
 
-+ Session restoration
++ Session management 
 + Low-battery hibernate
 + Notification center
 + Dynamic wallpaper
@@ -22,21 +22,22 @@
 + Weather (OpenWeatherMap) 
 + Quake terminal
 + Hardware monitor
++ Various dynamic widgets 
 
 ## Installation and usage
 
-1. Install the [required dependencies](#required-dependencies). Note that there's also an [optional dependencies](#optional-dependencies) for full functionality.
+1. Install the [required dependencies](#required-dependencies). Note that there's also [optional dependencies](#optional-dependencies) for full functionality.
 2. Clone this repository.
 
 	```bash
-	$ git clone --depth 1 https://github.com/bmorin-dev/awesome-kaleido/
+	git clone --depth 1 https://github.com/bmorin-dev/awesome-kaleido/
 	```
 
 3. Make sure to create a backup of your old config (if applicable)
 4. Copy the contents of the folder to your `"${HOME}"/.config/`.:
 
 	```bash
-	$ cp -r the-glorious-dotfiles/config/awesome/floppy $HOME/.config/awesome
+	cp -r awesome-kaleido $HOME/.config/awesome
 	```
 
 4. Add your specific hardware (like wireless interfaces) to `$HOME/.config/awesome/config/user/machine.lua`).
