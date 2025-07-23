@@ -1,16 +1,7 @@
 <p align='center'>
 	<br/>
-    This is an AwesomeWM config that is based off of mostly The Glorious Dotfiles by Eromatiya, with bits and pieces ~~stolen~~ borrowed from other sources
+    This is an AwesomeWM config that is based off The Glorious Dotfiles by Eromatiya 
 </p>
-
-### Using
-
-- [`awesomewm`](https://awesomewm.org) as window manager
-- [`linuxmint`](https://linuxmint.com/download.php) as distribution
-- [`picom-git`](https://github.com/yshui/picom) as compositor
-- [`rofi`](https://github.com/davatorium/rofi) as application launcher
-- [`wezterm`](https://wezterm.org) as terminal emulator
-- [`fish`](https://fishshell.com/) as shell
 
 ## Core features
 
