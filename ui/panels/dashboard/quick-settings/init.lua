@@ -47,6 +47,7 @@ return wibox.widget({
 					require(widget_dir .. "redshift"),
 					require(widget_dir .. "airplane-mode-toggle"),
 					require(widget_dir .. "bluetooth-toggle"),
+					require(widget_dir .. "autobright-toggle"),
 				},
 				bg = beautiful.groups_bg,
 				shape = function(cr, width, height)
