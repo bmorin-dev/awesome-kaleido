@@ -32,12 +32,10 @@
 	```
 
 4. Add your specific hardware (like wireless interfaces) to `$HOME/.config/awesome/config/user/machine.lua`).
-5. Add your credentials, like API keys, to `$HOME/.config/awesome/config/user/credentials.lua`.
+5. Add your API keys to `$HOME/.config/awesome/config/user/credentials.lua`.
 6. Change the global configuration in `$HOME/.config/awesome/config/user/preferences.lua` to your liking.
 7. Reload AwesomeWM by pressing <kbd>Super + Shift + r</kbd>.
 8. Enjoy! (hopefully)
-
-
 
 ## Required dependencies
 
@@ -64,7 +62,7 @@
 | brightnessctl | Brightness manager | Brightness widgets |
 | acpi | Manages power settings | Battery widget, and hibernate module |
 
-### Default applications (easily replaced in preferences)
+### Default applications (easily replaced in config file)
 
 | Name | Description | Why? |
 | --- | --- | --- |
@@ -76,4 +74,6 @@
 
 ## TODO:
 
-+ Custom lua lockscreen (eventually) 
++ Custom lua lockscreen
++ Clipboard manager
++ 
