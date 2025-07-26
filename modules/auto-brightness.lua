@@ -1,13 +1,12 @@
 local awful = require("awful")
 local gears = require("gears")
-local naughty = require("naughty")
 
 local auto_brightness = {}
 auto_brightness.enabled = false
 auto_brightness.timer = nil
 auto_brightness.stream_running = false
 
-local config_dir = gfs.get_configuration_dir()
+local config_dir = gears.filesystem.get_configuration_dir()
 local script_dir = config_dir .. "/scripts/"
 
 -- Start brightness stream
