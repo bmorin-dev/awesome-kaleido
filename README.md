@@ -5,6 +5,7 @@
 
 ## Core features
 
++ Translucent UI elements
 + Session management 
 + Low-battery hibernate
 + Notification center

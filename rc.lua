@@ -49,5 +49,6 @@ require("modules.auto-hibernate")
 require("modules.vpn-auto-tunnel")
 require("modules.session-mgr")
 require("modules.flashfocus")
+require("modules.auto-brightness")
 
 --require("modules.window-swallowing")

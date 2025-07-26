@@ -1,0 +1,11 @@
+---Configurations this one takes from---
+https://github.com/eromatiya/the-glorious-dotfiles
+https://github.com/lcpz/awesome-copycats
+https://github.com/atsepkov/awesome-awesome-wm
+
+--Libraries and/or dependencies--
+https://gist.github.com/tylerneylon/59f4bcf316be525b30ab
+
+---Development and testing tools---
+https://github.com/devclyde/awesome-emmylua
+https://github.com/Curve/aawmtt

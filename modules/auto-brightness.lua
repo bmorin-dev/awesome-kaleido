@@ -1,4 +1,3 @@
--- auto_brightness_signal.lua
 local awful = require("awful")
 local gears = require("gears")
 local naughty = require("naughty")
@@ -52,7 +51,7 @@ end
 -- Set screen brightness
 local function set_screen_brightness(brightness)
 	local percent = math.floor(brightness * 120)
-	percent = math.max(10, math.min(100, percent))
+	percent = math.max(5, math.min(100, percent))
 
 	awful.spawn("brightnessctl s " .. percent .. "%", false)
 
@@ -84,7 +83,6 @@ local function start_auto_brightness()
 	end
 
 	auto_brightness.timer:start()
-	naughty.notify({ text = "Auto-brightness enabled" })
 	awesome.emit_signal("module::auto_brightness:status_changed", true)
 end
 
@@ -99,7 +97,6 @@ local function stop_auto_brightness()
 		auto_brightness.timer:stop()
 	end
 	stop_brightness_stream()
-	naughty.notify({ text = "Auto-brightness disabled" })
 	awesome.emit_signal("module::auto_brightness:status_changed", false)
 end
 
