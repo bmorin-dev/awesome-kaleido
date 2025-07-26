@@ -33,7 +33,7 @@ return wibox.widget({
 		{
 			layout = wibox.layout.fixed.vertical,
 			require(widget_dir .. "cpu-meter"),
-			--require(widget_dir .. "gpu-meter"),
+			require(widget_dir .. "gpu-meter"),
 			require(widget_dir .. "ram-meter"),
 			require(widget_dir .. "temp-meter"),
 			require(widget_dir .. "disk-meter"),
